@@ -1,5 +1,5 @@
 Name: hmm
-Version: 0.3
+Version: 0.3.1
 Cabal-Version:  >= 1.2
 Build-type: Simple
 License: BSD3
@@ -24,8 +24,8 @@ Source-Repository head
 Library
   Build-Depends: 
                  base,logfloat,data-memocombinators,list-extras,array,
-                 binary >=0.7.1 && <0.8,
-                 bytestring >=0.9.0 && <0.11,
-                 containers >=0.4.2 && <0.6
+                 binary,
+                 bytestring,
+                 containers
   Exposed-modules:
     Data.HMM
